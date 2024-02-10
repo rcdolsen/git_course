@@ -11,20 +11,44 @@
 
 <style>
     * {
-        background: grey;
+        background: black;
     }
 
     h1 {
         display: flex;
         color: aquamarine;
-        background: black;
-        padding: 1rem;
+        background: grey;
         justify-content: center;
+    }
+
+    li {
+        padding: .5rem;
+        color: white;
+        font-weight: bold;
+        list-style: decimal;
     }
 </style>
 
 <body>
     <h1>this is a git and github workshop</h1>
+    <div>
+        <h2>
+            when creating a new feature we should always follow this workflow
+        </h2>
+
+        <ul>
+            <li>Create a new branch </li>
+            <li>Checkout to that branch</li>
+            <li>Code the new feature</li>
+            <li>Add, commit and push your code</li>
+            <li>Create a pull request</li>
+            <li>Wait for reviews and do the requested changes</li>
+            <li>Once everyone is happy with the code, a team member will
+                be able to merge the pull request with master</li>
+            <li>Repeat</li>
+        </ul>
+
+    </div>
 </body>
 
 </html>
